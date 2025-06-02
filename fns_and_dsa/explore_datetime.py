@@ -13,5 +13,6 @@ def calculate_future_date():
     except ValueError:
         print("Invalid input. Please enter an integer.")
 
-# Execute the functions
-d
+display_current_datetime()
+calculate_future_date()
+
