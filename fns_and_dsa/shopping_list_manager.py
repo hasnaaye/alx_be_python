@@ -1,13 +1,15 @@
+def display_menu():
+    print("\nShopping List Manager")
+    print("1. Add Item")
+    print("2. Remove Item")
+    print("3. View Shopping List")
+    print("4. Exit")
+
 def main():
     shopping_list = []
 
     while True:
-        print("\n--- Shopping List Menu ---")
-        print("1. Add an item")
-        print("2. Remove an item")
-        print("3. View shopping list")
-        print("4. Exit")
-
+        display_menu()
         choice = input("Enter your choice (1-4): ")
 
         if choice == '1':
